@@ -1,0 +1,56 @@
+button {
+  width: 3em; /*largura*/
+  height: 3em; /*altura*/
+  font-size: 1.5em; /*aumenta a fonte da letra */
+  border: none; /*titando a borda*/
+  border-radius: 2em; /*arredondando a borda*/
+  margin: 0.3em; /*para dar um espaçamento entre os botoes, margim para fora*/
+}
+
+/**/
+button:hover {
+  /*dando destaque para o botão*/
+  cursor: pointer; /*colocando a mãozinha no botão*/
+}
+
+.embrulhar {
+  background: black; /*fundo preto*/
+  border-radius: 1em; /*arrendodando a borda*/
+  padding: 1em; /*é para dentro*/
+}
+
+.contenier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24em;
+  padding: 10em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cor {
+  background: rgb(85, 136, 219);
+  color: white;
+  font-weight: 700;
+}
+
+.verde {
+  background: green;
+  font-weight: 700;
+}
+
+.cinza {
+  background: #505050;
+  color: white;
+  font-weight: 700;
+}
+
+.tela {
+  color: white;
+  display: flex;
+  justify-content: right;
+  margin-right: 1em;
+  font-size: 3.5em;
+  font-weight: 700;
+}
